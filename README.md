@@ -10,6 +10,10 @@ maven { url 'https://jitpack.io' }
 in all repositories
 
 afterwards
-add this to module level repo 
+add this to module level gradle 
 
 implementation 'com.github.thehealer15:ppp-converter-libary:0.1.0'
+
+## fuctions 
+double inrInPPP = Converter.getINR2USD(double ) 
+double USDinPpP = Converter.getUSD2INR(double )
